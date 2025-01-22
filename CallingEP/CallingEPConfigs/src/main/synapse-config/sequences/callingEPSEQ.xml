@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sequence name="callingEPSEQ" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
     <log>
+        <property expression="get-property('env', 'URL')" name="FIRST"/>
+    </log>
+    <log>
         <property expression="get-property('SYSTEM', 'URL')" name="SECOND"/>
     </log>
     <log>
