@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="CallingEP" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CallingEP.xml</file>
+    </artifact>
+    <artifact name="CallingEP_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CallingEP_swagger.yaml</file>
+    </artifact>
+    <artifact name="CallingEP_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CallingEP_metadata.yaml</file>
+    </artifact>
+    <artifact name="callingEPSEQ" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/callingEPSEQ.xml</file>
+    </artifact>
+    <artifact name="NamedEndPoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NamedEndPoint.xml</file>
+    </artifact>
+</artifacts>
