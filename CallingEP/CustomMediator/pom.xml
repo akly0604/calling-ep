@@ -43,7 +43,7 @@
     <artifactId>helloWorld</artifactId>
     <version>1.0.0</version>
     <scope>system</scope>
-    <systemPath>${project.basedir}/libs/helloWorld.jar</systemPath>
+    <systemPath>${project.basedir}/libs/helloworld.jar</systemPath>
 </dependency>
 </dependencies>
   <repositories>
