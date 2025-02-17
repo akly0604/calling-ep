@@ -76,6 +76,12 @@
                 <include>**/*.jar</include>
             </includes>
         </resource>
+        <resource>
+            <directory>libs</directory> <!-- Include the libs folder -->
+            <includes>
+                <include>**/*.jar</include>
+            </includes>
+        </resource>
     </resources>
     <plugins>
       <plugin>
@@ -107,21 +113,14 @@
       </plugin>
       <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-dependency-plugin</artifactId>
-            <version>3.1.2</version>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.6.0</version> <!-- Latest version -->
             <executions>
                 <execution>
-                    <id>copy-libs</id>
                     <phase>package</phase>
                     <goals>
-                        <goal>copy</goal>
+                        <goal>shade</goal>
                     </goals>
-                    <configuration>
-                        <outputDirectory>${project.build.directory}/libs</outputDirectory>
-                        <overWriteReleases>false</overWriteReleases>
-                        <overWriteSnapshots>false</overWriteSnapshots>
-                        <overWriteIfNewer>true</overWriteIfNewer>
-                    </configuration>
                 </execution>
             </executions>
         </plugin>
