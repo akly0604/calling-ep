@@ -97,6 +97,13 @@
           </execution>
         </executions>
         <dependencies>
+        <dependency>
+    <groupId>com.example</groupId>   <!-- Change to your package name -->
+    <artifactId>WSO2JarProject</artifactId>
+    <version>1.0</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/WSO2JarProject.jar</systemPath>
+</dependency>
           <dependency>
             <groupId>com.sun.activation</groupId>
             <artifactId>javax.activation</artifactId>

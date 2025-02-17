@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><libraries>
+    <jar name="POCTest.jar">
+        <export-packages>
+            <export-package>org.example</export-package>
+        </export-packages>
+    </jar>
+</libraries>

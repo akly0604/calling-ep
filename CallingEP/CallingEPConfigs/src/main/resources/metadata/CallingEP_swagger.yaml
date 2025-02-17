@@ -6,7 +6,7 @@ info:
 servers:
 - url: http://localhost:8290/CallingEP
 paths:
-  /callEP:
+  /testCalling:
     post:
       requestBody:
         description: Sample Payload

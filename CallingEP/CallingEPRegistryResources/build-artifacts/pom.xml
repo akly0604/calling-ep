@@ -13,4 +13,7 @@
   <packaging>pom</packaging>
   <name>CallingEPRegistryResources_module</name>
   <description>CallingEPRegistryResources_module</description>
+  <modules>
+    <module>resource/PersonInfo_jar</module>
+  </modules>
 </project>

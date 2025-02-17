@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><artifacts>
-        </artifacts>
+    <artifact name="PersonInfo_jar" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>PersonInfo.jar</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/java-archive</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+</artifacts>

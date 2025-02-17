@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sequence name="callingEPSEQ" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
-    <log>
-        <property expression="get-property('env', 'URL')" name="FIRST"/>
+    <property name="inputString" scope="default" type="STRING" value="Hi!!!!!!"/>
+    <class name="org.jar.sample.JarExecutorMediator"/>
+    <payloadFactory media-type="json">
+        <format>{&#xd;
+"message": $1&#xd;
+}</format>
+        <args>
+            <arg evaluator="xml" expression="get-property('responseValue')"/>
+        </args>
+    </payloadFactory>
+    <log level="custom">
+        <property expression="get-property('responseValue')" name="JAR_Output"/>
     </log>
-    <log>
-        <property expression="get-property('SYSTEM', 'URL')" name="SECOND"/>
-    </log>
-    <log>
-        <property expression="get-property('URL')" name="URLSSS"/>
-    </log>
-    <respond/>
 </sequence>
