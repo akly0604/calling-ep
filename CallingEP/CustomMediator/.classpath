@@ -26,5 +26,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/CallingEP/lib/helloworld.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
