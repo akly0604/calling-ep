@@ -15,7 +15,7 @@ public class JarExecutorMediator extends AbstractMediator {
 
         try {
             // Load the JAR dynamically from the 'libs' folder
-            File jarFile = new File("libs/helloWorld.jar");  // Path to the JAR
+            File jarFile = new File("libs/helloworld.jar");  // Path to the JAR
             if (jarFile.exists()) {
                 URL jarUrl = jarFile.toURI().toURL();
                 URLClassLoader classLoader = new URLClassLoader(new URL[]{jarUrl}, Thread.currentThread().getContextClassLoader());
