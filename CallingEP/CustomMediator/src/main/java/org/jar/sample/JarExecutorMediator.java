@@ -13,7 +13,7 @@ public class JarExecutorMediator extends AbstractMediator {
 
     private static final Log log = LogFactory.getLog(JarExecutorMediator.class);
     private static final String JAR_NAME = "helloworld.jar"; // Changed to lowercase to match actual filename
-    private static final String JAR_CLASS = "org.example.HelloWorld";
+    private static final String JAR_CLASS = "org.example.helloWorld";
 
     public boolean mediate(MessageContext context) {
         log.info("Starting JAR existence check mediator");
