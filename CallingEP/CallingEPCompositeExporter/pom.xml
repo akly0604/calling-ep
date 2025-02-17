@@ -52,13 +52,6 @@
       <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
-    <dependency>
-      <groupId>org.example</groupId>
-      <artifactId>helloWorld</artifactId>
-      <version>1.0</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/libs/helloWorld.jar</systemPath>
-    </dependency>
   </dependencies>
   <repositories>
     <repository>
