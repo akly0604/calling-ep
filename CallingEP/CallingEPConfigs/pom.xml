@@ -102,6 +102,13 @@
             <artifactId>javax.activation</artifactId>
             <version>1.2.0</version>
           </dependency>
+              <dependency>
+      <groupId>org.example</groupId>
+      <artifactId>helloWorld</artifactId>
+      <version>1.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/libs/helloWorld.jar</systemPath>
+    </dependency>
         </dependencies>
         <configuration />
       </plugin>
