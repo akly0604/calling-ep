@@ -9,8 +9,6 @@
   <name>CallingEP</name>
   <description>CallingEP</description>
   <modules>
-    <module>lib</module>
-    <module>CallingEPRegistryResources</module>
     <module>CustomMediator</module>
     <module>CallingEPConfigs</module>
     <module>CallingEPCompositeExporter</module>
