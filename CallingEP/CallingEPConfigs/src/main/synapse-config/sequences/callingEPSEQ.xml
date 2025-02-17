@@ -13,4 +13,5 @@
     <log level="custom">
         <property expression="get-property('responseValue')" name="JAR_Output"/>
     </log>
+    <respond/>
 </sequence>

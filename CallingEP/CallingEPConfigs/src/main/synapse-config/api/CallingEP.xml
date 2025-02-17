@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/CallingEP" name="CallingEP" xmlns="http://ws.apache.org/ns/synapse">
     <resource methods="POST" uri-template="/testCalling">
-        <inSequence/>
+        <inSequence>
+            <sequence key="callingEPSEQ"/>
+        </inSequence>
         <outSequence/>
         <faultSequence/>
     </resource>
