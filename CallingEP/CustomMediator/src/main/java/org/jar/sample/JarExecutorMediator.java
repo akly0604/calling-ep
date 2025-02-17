@@ -14,7 +14,7 @@ public class JarExecutorMediator extends AbstractMediator {
     public boolean mediate(MessageContext context) {
         try {
             // Path to the JAR file in WSO2 lib directory
-            String jarFilePath = "/repository/lib/helloworld.jar";
+            String jarFilePath = "/workspace/CustomMediator/libs/helloworld.jar";
             
             // Load the JAR class using ClassLoader
             File jarFile = new File(jarFilePath);
